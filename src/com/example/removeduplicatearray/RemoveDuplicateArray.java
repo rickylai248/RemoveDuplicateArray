@@ -13,7 +13,26 @@ public class RemoveDuplicateArray {
         names.add("Daniel");
         names.add("Fiona");
         names.add("Fiona");
+        System.out.println("Initial Names");
+        for (String str : names) {
+            System.out.println(str + " ");
+        }
         System.out.println("Checking for duplicates...");
+        int current = 0;
+        while (current < names.size()) {
+            int j = 0;
+            boolean removed = false;
+            while (j < current) {
+                if (names.get(current).equals(names.get(j))) {
+                    names.remove(current);
+                    removed = true;
+                    break;
+                }
+                else j++;
+            }
+            if (!removed) current++;
+        }
+        System.out.println("List of Names after filtering out duplicates");
         for (String str : names) {
             System.out.println(str + " ");
         }
