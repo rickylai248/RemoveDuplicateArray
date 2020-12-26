@@ -6,6 +6,7 @@ public class RemoveDuplicateArray {
     public static void main(String[] args) {
         System.out.println("Initialization Line");
         ArrayList<String> names = new ArrayList<>();
+        // test String objects here
         names.add("Angel");
         names.add("Bob");
         names.add("Angel");
@@ -13,6 +14,7 @@ public class RemoveDuplicateArray {
         names.add("Daniel");
         names.add("Fiona");
         names.add("Fiona");
+        // end
         System.out.println("Initial Names");
         for (String str : names) {
             System.out.println(str + " ");
