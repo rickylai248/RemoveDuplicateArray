@@ -1,5 +1,5 @@
 # RemoveDuplicateArray
-## Personal program to remove duplicate Strings for instance in an ArrayList of Strings
+## Personal program to remove duplicate Strings for instance in an ArrayList of Strings using Java
 
 Setup print statements for current items in list before filtering
 Afterwards, it filters out the duplicates in the nested while loop.
